@@ -1,0 +1,203 @@
+/* 
+Enter Joomla 1.5 Design & Creation Comments Here
+
+*/
+
+/*////////// GENERAL //////////*/
+body {
+	margin: 0px;
+}
+
+#container {
+	margin: 0 auto;
+    width: 1000px;
+    border: 1px solid #666666;
+	font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height:16px;
+}
+	  
+#container2 {
+	border: 1px solid #0000ff;
+}
+
+#container3 {
+	width: 770px;
+  	float:left;
+  	border: 1px solid #ff0000;
+}
+
+/*////////// TYPEOGRAPHY //////////*/
+h1, h4 {
+   font-family: Georgia, Times, serif;
+}
+
+h2, h3{
+	
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+		
+h1 {
+  font-size: 32px;
+}
+		
+h2 {
+  font-size: 22px;
+}
+		
+h3 {
+  font-size: 16px;
+}
+	
+h4 {
+  font-size: 14px;
+}
+
+
+p {
+  margin-bottom: 18px;
+}
+		
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {}
+
+blockquote{
+   font-size: 18px;
+   margin-bottom: 24px;
+}	 	 
+
+/*////////// HEADERS //////////*/
+#header {
+   border: 1px solid #00ff00;
+   height: 230px;
+}
+	
+#user1{
+ border: 1px solid #ff6600;
+ width: 250px;
+ float: left;
+}
+
+#user2{
+ border: 1px solid #ff6600;
+ width: 250px;
+ float: right;
+}
+
+#user3{
+ border: 1px solid #ff6600;
+ margin-top: 100px;
+}
+
+#user4{
+ border: 1px solid #ff6600;
+}
+
+.leftWidth{/*class allows for quickly ensuring anything on the left side can be set*/
+ width: 520px;
+}
+
+.quickMargin{/*adds 10px of margin to anything*/
+ margin: 10px;
+}
+
+/*////////// CONTENT //////////*/
+#content {
+	margin:0 10px;
+	width: 520px;
+	float:left;
+	border: 1px solid #333333;
+}
+
+#pushbottom{
+	clear:both;
+}
+			
+  
+/*////////// SIDEBARS //////////*/
+#sidebarLT {
+	margin:0 5px;
+	width:200px;
+	border: 1px solid #ff9900;
+	float:right;
+}
+
+#sidebarRT {
+	margin:0 10px;
+	width: 200px;
+	float: right;
+	border: 1px solid #0000ff;
+}
+
+
+/*////////// NAV //////////*/
+#top_navlist {
+	position: absolute;
+	top: 10px;
+	margin-left: 566px;
+	width: 200px;
+	/*width: 900px;*/
+	text-align:right;
+	border: 1px solid #003333;
+}
+
+		
+/*////////// FORMS //////////*/
+form {
+  font-size: 10px;
+}
+	
+input {
+  background-color: #FFFFFF;
+  color: #000000;
+  border: 1px solid #999999;
+  font-size: 11px;
+  padding: 3px;
+}
+
+textarea{
+  background-color: #FFFFFF;
+  color: #000000;
+  border: 1px solid #999999;
+  font-size: 11px;
+  padding: 3px;
+  width: 300px;
+  height: 150px;
+}	
+
+.button{
+	border: 1px solid #FFF0CC; 
+	background-color: #999999; 
+	color: #F0E0C2; 
+	font-size: 10px; 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-weight: bold; 
+	width: 150px;
+	height: 22px;
+	cursor: pointer;
+}
+
+
+/*////////// FOOTER //////////*/
+#footer {
+	border: 1px solid #000033;
+	height: 85px;
+	text-align:center;
+}
+		
+/*////////// IMAGES //////////*/		
+
+
+/*////// FUN CLASSES ///////////*/
+/*any little extra flares and fun design 
+elements you want to add can go here*/

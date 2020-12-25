@@ -1,0 +1,416 @@
+/* 
+Enter Joomla 1.5 Design & Creation Comments Here
+
+*/
+
+/*////////// GENERAL //////////*/
+body {
+	margin: 0px;
+	background: url("../images/bg_top_across.png") repeat-x top left;
+}
+
+#container {
+	margin: 0 auto;
+    width: 1000px;
+    /*border: 1px solid #666666;*/
+	font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height:16px;
+	background: url("../images/gogreen_header.jpg") no-repeat top left;
+}
+	  
+#container2 {
+	/*border: 1px solid #0000ff;*/
+}
+
+#container3 {
+	width: 770px;
+  	float:left;
+  	/*border: 1px solid #ff0000;*/
+}
+
+#acrossBottom {/*allows full width image behind footer*/
+ width: 100%;
+ background: url("../images/bg_footer_across.png") repeat-x 0 -4px;
+}
+
+/*////////// TYPEOGRAPHY //////////*/
+h1, h4 {
+   font-family: Georgia, Times, serif;
+}
+
+h2, h3{
+	
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+		
+h1 {
+  font-size: 28px;
+  color: #124435;
+}
+		
+h2 {
+  font-size: 22px;
+   color: #007153;
+}
+		
+h3 {
+  font-size: 16px;
+  color: #0059B2;
+}
+	
+h4 {
+  font-size: 14px;
+  color: #003355;
+}
+
+
+p {
+  margin-bottom: 18px;
+}
+		
+
+a {
+  font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #007153;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {}
+
+blockquote{
+   font-size: 18px;
+   float: right;
+   margin-bottom: 24px;
+   padding: 10px;
+   width: 50%;
+   background-color: #9FD780;
+   color: #ffffff;
+}
+
+img {
+border: none;
+
+}	 	 
+
+/*////////// HEADERS //////////*/
+#header {
+   /*border: 1px solid #00ff00;*/
+   height: 236px;
+   padding-top: 0px;
+}
+	
+#header h1, #header h4/**/ { 
+   display: none;
+}
+
+#user1{
+ /*border: 1px solid #ff6600;*/
+ margin-top: 90px;
+ width: 250px;
+ float: left;
+}
+
+#user2{
+ /*border: 1px solid #ff6600;*/
+ margin-top: 60px;
+ width: 250px;
+ float: right;
+}
+
+#user3{
+ /*border: 1px solid #ff6600;*/
+}
+
+#user4{
+ margin-top: 120px;
+ margin-left: 20px;
+ height: 120px;
+ /*border: 1px solid #ff6600;*/
+}
+
+#user1 h2, #user2 h2,	 #user4 h2{
+  color: #ffffff;
+
+}
+
+#right{
+ margin-left: 20px;
+}
+
+.leftWidth{/*class allows for quickly ensuring anything on the left side can be set*/
+ width: 520px;
+}
+
+.quickMargin{/*adds 10px of margin to anything*/
+ margin: 10px;
+}
+
+/*////////// CONTENT //////////*/
+#content {
+	margin:0;
+	width: 544px;
+	float:left;
+	/*border: 1px solid #333333;*/
+	background: url("../images/bg_content_topright.jpg") no-repeat top right;
+}
+
+.search{
+ margin-top: 5px;	
+ float:right;
+ margin-right: 235px;
+}
+
+.leading{
+   margin: 20px;
+   padding: 2px 5px 0 10px;
+   background: url("../images/bg_leadarticle.png") no-repeat top left;
+}
+
+.leading h2{
+   color: #0059B2;
+}
+
+
+.componentheading{
+	font-size: 16px;
+	font-variant: small-caps;
+	color: #007153;
+}
+
+#pushbottom{
+	clear:both;
+}
+			
+  
+/*////////// SIDEBARS //////////*/
+#sidebarLT {
+	margin:0;
+	width:210px;
+	/*border: 1px solid #ff9900;*/
+	float:right;
+}
+
+#sidebarRT {
+	margin:0;
+	width: 218px;
+	height: 500px;
+	float: right;
+	/*border: 1px solid #0000ff;*/
+	background: url("../images/bg_sidelft_topleft.jpg") no-repeat 0 246px;
+}
+
+
+/*////////// NAV //////////*/
+#top_navlist {
+   position: absolute;
+   top: 15px;
+   margin-left: 550px;
+   /*border: 1px solid #ffff00;*/
+}
+  
+#top_navlist h3{
+   display: none;
+}
+
+.menu, .menu ul { /* all lists */
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	float : left;
+	width: 220px;
+	font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	/*font-variant: small-caps;*/
+}
+
+
+
+.menu li { /* all list items */
+	position : relative;
+	float : left;
+	line-height : 1.25em;
+	margin-bottom : -1px;
+}
+
+.menu li a {
+	width: 190px;
+	line-height: 30px;
+	display : block;
+	color : #0059B2;
+	font-weight : bold;
+	font-size: 18px;
+	text-decoration : none;
+	text-align: right;
+	/*background-color : white;*/
+	border-bottom : 1px solid #9FD780;
+	/*padding : 0 0.5em;*/
+	padding-right: 30px;
+}
+
+
+/* suckerfish dropdowns */
+.menu li ul { /* second-level lists */
+	position : absolute;
+	left: -999em;
+	margin-left : -214px;
+	margin-top : -28px;
+}
+
+
+
+.menu li ul ul { /* third-and-above-level lists */
+	right: -999em;
+}
+
+
+.menu li ul{
+ background-color : white;
+ width: 213px;
+ border: 1px solid #818749;
+}
+
+.menu li ul li a{
+ width: 200px;
+ padding : 0 0.5em;
+ border-bottom : 1px solid #999999;
+}
+
+.menu li a:hover {
+	color : #999999;
+}
+
+.menu #current a{
+    color: #666666;
+    text-decoration: underline;
+}
+
+.menu #current ul li a{
+  text-decoration:none;
+  color:#000000;
+}
+
+.menu #current ul li a:hover{
+  color : #999999;
+}
+		
+/*////////// FORMS //////////*/
+form {
+  font-size: 12px;
+  border: none;
+}
+
+fieldset{
+	border: none;/*this has a border set in one of the general style sheets and setting it to none overrides that*/
+	margin: 0;
+}
+
+#right .moduletable {
+    margin-top: 10px;
+	padding: 10px 0 10px 0;
+    /*background-color: #84BBD9;*/
+}
+
+.poll{
+	border: none;
+	margin: 0;
+}
+
+.poll label{
+	display:block;
+	width: 160px;
+	padding-left: 25px;
+	color: #4C341C;
+}
+
+.poll fieldset input{
+	float: left;
+	margin: 0;
+	margin-top: 8px;
+}
+
+#right .moduletable h3{
+   margin-top: 5px;
+   padding-left: 10px;
+   font-size: 14px;
+   font-variant: small-caps;
+}
+
+#right .moduletable h4{
+   margin: 5px 0 0 0;
+   padding-left: 10px;
+}
+
+.poll .button{
+ margin: 0px;
+ margin-left: 30px;
+ width: 60px;
+}
+
+
+
+	
+input {
+  background-color: #FFFFFF;
+  color: #000000;
+  border: 1px solid #999999;
+  font-size: 11px;
+  padding: 3px;
+}
+
+textarea{
+  background-color: #FFFFFF;
+  color: #000000;
+  border: 1px solid #999999;
+  font-size: 11px;
+  padding: 3px;
+  width: 300px;
+  height: 150px;
+}	
+
+.button{
+	border: 1px solid #124435; 
+	background-color: #007153; 
+	color: #ffffff; 
+	font-size: 10px; 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-weight: bold; 
+	width: 80px;
+	height: 30px;
+	cursor: pointer;
+}
+
+.buttonheading{
+   float: right;
+   margin: 15px;
+}
+
+
+/*////////// FOOTER //////////*/
+#footer {
+	/*border: 1px solid #000033;*/
+	padding-top: 10px;
+	height: 85px;
+	text-align:center;
+}
+
+#footer .menu li{
+    float: right;
+}
+
+#footer h3{
+    display:none;
+}
+		
+/*////////// IMAGES //////////*/		
+
+
+/*////// FUN CLASSES ///////////*/
+/*any little extra flares and fun design 
+elements you want to add can go here*/

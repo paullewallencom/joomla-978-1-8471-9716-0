@@ -1,0 +1,97 @@
+/* 
+Enter Joomla 1.5 Design & Creation Comments Here
+
+*/
+
+/*////////// GENERAL //////////*/
+body {}
+
+#container {
+	font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height:16px;
+}
+	  
+#container2 {}
+
+#container3 {}
+
+/*////////// TYPEOGRAPHY //////////*/
+h1, h4 {
+   font-family: Georgia, Times, serif;
+}
+
+h2, h3{
+	
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+		
+h1 {
+  font-size: 32px;
+}
+		
+h2 {
+  font-size: 22px;
+}
+		
+h3 {
+  font-size: 16px;
+}
+	
+h4 {
+  font-size: 14px;
+}
+
+
+p {
+  margin-bottom: 18px;
+}
+		
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {}
+
+blockquote{
+   font-size: 18px;
+   margin-bottom: 24px;
+}	 	 
+
+/*////////// HEADERS //////////*/
+#header { }
+	
+
+/*////////// CONTENT //////////*/
+#content {}
+			
+  
+/*////////// SIDEBARS //////////*/
+#sidebarLT {}
+
+#sidebarRT {}
+
+
+/*////////// NAV //////////*/
+
+
+		
+/*////////// FORMS //////////*/
+
+
+/*////////// FOOTER //////////*/
+#footer {}
+		
+/*////////// IMAGES //////////*/		
+
+
+/*////// FUN CLASSES ///////////*/
+/*any little extra flares and fun design 
+elements you want to add can go here*/
